@@ -1,0 +1,27 @@
+{
+  "mixed": {
+    "default": "Wartość nieprawidłowa",
+    "required": "Pole nie może być puste",
+    "oneof": "Wprowadzona wartość jest niedozwolona",
+    "notoneof": "Wprowadzona wartość jest niedozwolona",
+    "nottype": "Wprowadzona wartość jest niedozwolona"
+  },
+  "string": {
+    "length": "Wprowadzona ilość znaków musi wynosić {{length}}",
+    "min": "Minimalna ilość znaków wynosi {{min}}",
+    "max": "Maksymalna ilość znaków wynosi {{max}}",
+    "matches": "Wprowadzona wartość jest niedozwolona",
+    "email": "Niepoprawny adres email",
+    "url": "Niepoprawny format url",
+    "trim": "Białe znaki na początku i końcu pola są niedozwolone",
+    "lowercase": "Dozwolone są tylko małe litery",
+    "uppercase": "Dozwolone są tylko duże litery"
+  },
+  "number": {
+    "integer": "Wprowadzona wartość musi być liczbą całkowitą",
+    "min": "Minimalna wartość wynosi {{min}}"
+  },
+  "object": {
+    "nounknown": "Wprowadzone wartości nie są zgodne z kluczem"
+  }
+}

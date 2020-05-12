@@ -1,0 +1,74 @@
+image: node
+
+cache:
+  untracked: true
+  key: '$CI_COMMIT_REF_SLUG'
+  paths:
+    - node_modules/
+    - .yarn
+
+stages:
+  - sync
+  - lint
+  - build
+  - test
+
+Cache:
+  stage: sync
+  script:
+    - yarn config set cache-folder .yarn
+    - yarn install
+
+Lint_Backend:
+  stage: lint
+  only:
+    changes:
+      - backend/**/*
+  allow_failure: true
+  script:
+    - yarn lint:backend
+
+Lint_Frontend:
+  stage: lint
+  only:
+    changes:
+      - frontend/**/*
+  allow_failure: true
+  script:
+    - yarn lint:frontend
+
+Build_Backend:
+  stage: build
+  needs: ['Lint_Backend']
+  only:
+    changes:
+      - backend/**/*
+  script:
+    - yarn build:backend
+
+Build_Frontend:
+  stage: build
+  needs: ['Lint_Frontend']
+  only:
+    changes:
+      - frontend/**/*
+  script:
+    - yarn build:frontend
+
+Test_Backend:
+  stage: test
+  needs: ['Build_Backend']
+  only:
+    changes:
+      - backend/**/*
+  script:
+    - yarn test:backend
+
+Test_Frontend:
+  stage: test
+  needs: ['Build_Frontend']
+  only:
+    changes:
+      - frontend/**/*
+  script:
+    - yarn test:frontend

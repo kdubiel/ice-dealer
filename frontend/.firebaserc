@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "staging",
+    "staging": "ice-dealer-staging",
+    "production": "ice-dealer"
+  },
+  "targets": {
+    "ice-dealer": {
+      "hosting": "ice-dealer"
+    },
+    "ice-dealer-staging": {
+      "hosting": "ice-dealer-staging"
+    }
+  }
+}

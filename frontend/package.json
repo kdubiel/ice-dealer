@@ -1,0 +1,84 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.3",
+    "@dnb/common": "*",
+    "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/styles": "^4.9.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/lodash": "^4.14.149",
+    "@types/material-ui": "^0.21.7",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^12.0.0",
+    "@types/papaparse": "^5.0.3",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-router-dom": "^5.1.3",
+    "@types/react-toastify": "^4.1.0",
+    "@types/styled-components": "^5.0.1",
+    "@types/yup": "^0.26.32",
+    "apollo-boost": "^0.4.7",
+    "env-cmd": "^10.1.0",
+    "formik": "^2.1.4",
+    "graphql": "^14.6.0",
+    "i18next": "^19.3.3",
+    "i18next-browser-languagedetector": "^4.0.2",
+    "lodash": "^4.17.15",
+    "material-table": "^1.57.2",
+    "moment": "^2.24.0",
+    "papaparse": "^5.2.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-i18next": "^11.3.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-toastify": "^5.5.0",
+    "styled-components": "^5.0.1",
+    "typescript": "~3.7.2",
+    "yup": "^0.28.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "@typescript-eslint/parser": "^2.22.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build:staging": "env-cmd -f .env.staging yarn build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "tsc --noEmit && eslint ./src --ext .js,.tsx,.ts --max-warnings=0",
+    "lint:fix": "eslint ./src --ext .js,.tsx,.ts --fix",
+    "watch": "react-scripts start",
+    "deploy": "yarn build && firebase deploy",
+    "deploy:staging": "yarn build:staging && firebase use staging && firebase deploy"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

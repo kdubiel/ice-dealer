@@ -1,0 +1,21 @@
+{
+  "status": {
+    "new": "New",
+    "confirmed": "Confirmed",
+    "deleted": "Deleted",
+    "available": "Available",
+    "unavailable": "Inactive",
+    "awaiting": "Awaiting",
+    "canceled": "Canceled",
+    "closed": "Closed",
+    "delivered": "Delivered"
+  },
+  "role": {
+    "admin": "Administrator",
+    "client": "Client"
+  },
+  "deleted": {
+    "true": "Yes",
+    "false": "No"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "buttons": {
+    "next": "Next",
+    "cancel": "Cancel",
+    "login": "Sign in",
+    "signup": "Sign up",
+    "logout": "Sign out",
+    "save": "Save",
+    "order": "Order",
+    "accept": "Accept"
+  },
+  "labels": {
+    "login": "Login or email",
+    "email": "Email address",
+    "password": "Password",
+    "confirm-password": "Confirm password",
+    "remember": "Remember me",
+    "name": "Login",
+    "role": "Role",
+    "status": "Status",
+    "createdAt": "Created",
+    "updatedAt": "Modified",
+    "city": "City",
+    "zipCode": "Postal code",
+    "streetName": "Street name",
+    "buildingNumber": "House/flat number",
+    "isDeleted": "Deleted",
+    "amount": "Amount",
+    "purchaser": "Purchaser",
+    "pickupLocation": "Pickup location",
+    "contact": "Contact",
+    "phoneNumber": "Phone number",
+    "download-orders": "Download {{count}} orders",
+    "register": "Register",
+    "forgot": "Forgot password",
+    "signin": "Sign in"
+  },
+  "titles": {
+    "login": "Sign in",
+    "signup": "Sign up",
+    "create-user": "Create user",
+    "edit-user": "Edit user",
+    "users-table": "Users",
+    "create-pickupLocation": "Create pickup location",
+    "edit-pickupLocation": "Edit pickup location",
+    "pickupLocation-table": "Pickup locations",
+    "myOrders": "Orders",
+    "clientsOrders": "Orders",
+    "edit-order-status": "Edit status",
+    "forgot-password": "Forgot password",
+    "reset-password": "Reset password"
+  },
+  "messages": {
+    "forgot-password": "Enter the email address you used to register. You will receive a link to reset your password."
+  },
+  "errorTitles": {
+    "network": "Network error"
+  },
+  "errorMessages": {
+    "network": "A network error has occurred. Please try again or contact your administrator."
+  },
+  "errors": {
+    "password_match": "Passwords do not match"
+  },
+  "tooltip": {
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "refresh": "Refresh",
+    "export": "Export"
+  },
+  "validation": {
+    "zipCode": "Zip code must be in a format \"44-200\""
+  },
+  "notification": {
+    "create": {
+      "success": "The object was created successfully.",
+      "error": "An error occurred while creating the object."
+    },
+    "edit": {
+      "success": "The object was edited successfully.",
+      "error": "An error occurred while editing the object."
+    },
+    "delete": {
+      "success": "The object was deleted successfully.",
+      "error": "An error occurred while deleting the object."
+    },
+    "update": {
+      "success": "The object was updated successfully.",
+      "error": "An error occurred while updating the object."
+    },
+    "order": {
+      "success": "The order was successfully submitted and forwarded to the administration.",
+      "error": "An error occurred while placing the order."
+    },
+    "signup": {
+      "success": "Registration was successful. Logging in will be possible after the account is activated by the administrator.",
+      "error": "User with given login or email address already exists."
+    },
+    "forgot-password": {
+      "success": "You will receive a link to reset your password to the email address provided.",
+      "error": "There is no account registered for this email address."
+    },
+    "login": {
+      "error": "Incorrect login or password"
+    },
+    "reset-password": {
+      "success": "Password has been changed successfully, you can login now.",
+      "error": "An error occurred while changing the password."
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "ice-dealer",
+  "license": "MIT",
+  "author": "Kamil Dubiel",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "common"
+  ],
+  "devDependencies": {
+    "husky": "^4.2.3",
+    "lerna": "^3.20.2"
+  },
+  "scripts": {
+    "start": "",
+    "watch": "lerna run watch --parallel",
+    "watch:backend": "yarn workspace backend run watch",
+    "watch:frontend": "yarn workspace frontend run watch",
+    "watch:common": "yarn workspace @dnb/common run watch",
+    "build:backend": "yarn workspace backend run build",
+    "build:frontend": "yarn workspace frontend run build",
+    "build:common": "yarn workspace @dnb/common run build",
+    "test:backend": "yarn workspace backend run test",
+    "test:frontend": "yarn workspace frontend run test",
+    "test:common": "yarn workspace @dnb/common run test",
+    "lint": "lerna run --stream lint",
+    "lint:fix": "lerna run --stream lint:fix",
+    "lint:backend": "yarn workspace backend run lint",
+    "lint:backend:fix": "yarn workspace backend run lint:fix",
+    "lint:frontend": "yarn workspace frontend run lint",
+    "lint:frontend:fix": "yarn workspace frontend run lint:fix",
+    "lint:common": "yarn workspace @dnb/common run lint",
+    "lint:common:fix": "yarn workspace @dnb/common run lint:fix",
+    "deploy:backend:staging": "git push staging HEAD:master",
+    "deploy:backend:production": "git push production HEAD:master",
+    "deploy:frontend:staging": "yarn workspace frontend run deploy:staging",
+    "deploy:frontend:production": "yarn workspace frontend run deploy:production",
+    "postinstall": "yarn run build:server",
+    "build:server": "lerna run build --scope={@dnb/common,backend}"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint"
+    }
+  }
+}

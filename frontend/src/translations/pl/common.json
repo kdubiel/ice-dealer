@@ -1,0 +1,112 @@
+{
+  "buttons": {
+    "next": "Dalej",
+    "cancel": "Anuluj",
+    "login": "Zaloguj",
+    "signup": "Zarejestruj",
+    "logout": "Wyloguj",
+    "save": "Zapisz",
+    "order": "Zamów",
+    "accept": "Akceptuj"
+  },
+  "labels": {
+    "login": "Login lub e-mail",
+    "email": "Adres email",
+    "password": "Hasło",
+    "confirm-password": "Potwierdź hasło",
+    "remember": "Zapamiętaj moje dane",
+    "name": "Login",
+    "role": "Rola",
+    "status": "Status",
+    "createdAt": "Utworzony",
+    "updatedAt": "Zmodyfikowany",
+    "city": "Miasto",
+    "zipCode": "Kod pocztowy",
+    "streetName": "Ulica",
+    "buildingNumber": "Nr domu/mieszkania",
+    "isDeleted": "Usunięty",
+    "amount": "Ilość",
+    "purchaser": "Kupujący",
+    "pickupLocation": "Punkt odbioru",
+    "contact": "Kontakt",
+    "phoneNumber": "Numer telefonu",
+    "download-orders": "Pobierz {{count}} zamówień",
+    "register": "Załóż konto",
+    "forgot": "Przypomnij hasło",
+    "signin": "Zaloguj się"
+  },
+  "titles": {
+    "login": "Zaloguj się",
+    "signup": "Zarejestruj się",
+    "create-user": "Utwórz użytkownika",
+    "edit-user": "Edytuj użytkownika",
+    "users-table": "Użytkownicy",
+    "create-pickupLocation": "Utwórz punkt odbioru",
+    "edit-pickupLocation": "Edytuj punkt odbioru",
+    "pickupLocation-table": "Punkty odbioru",
+    "myOrders": "Zamówienia",
+    "clientsOrders": "Zamówienia",
+    "edit-order-status": "Edytuj status",
+    "forgot-password": "Przypomnij hasło",
+    "reset-password": "Zresetuj hasło"
+  },
+  "messages": {
+    "forgot-password": "Wprowadź adres e-mail użyty podczas rejestracji. Otrzymasz na niego link pozwalający na zresetowanie Twojego hasła."
+  },
+  "errorTitles": {
+    "network": "Błąd sieci"
+  },
+  "errorMessages": {
+    "network": "Wystąpił błąd sieci. Spróbuj ponownie lub skontaktuj się z administratorem."
+  },
+  "errors": {
+    "password_match": "Hasła nie są identyczne"
+  },
+  "tooltip": {
+    "add": "Dodaj",
+    "edit": "Edytuj",
+    "delete": "Usuń",
+    "refresh": "Odśwież",
+    "export": "Eksportuj"
+  },
+  "validation": {
+    "zipCode": "Kod pocztowy musi być w formacie \"44-200\""
+  },
+  "notification": {
+    "create": {
+      "success": "Obiekt został utworzony pomyślnie.",
+      "error": "Wystąpił błąd podczas tworzenia obiektu."
+    },
+    "edit": {
+      "success": "Obiekt został edytowany pomyślnie.",
+      "error": "Wystąpił błąd podczas edycji obiektu."
+    },
+    "delete": {
+      "success": "Obiekt został usunięty pomyślnie.",
+      "error": "Wystąpił błąd podczas usuwania obiektu."
+    },
+    "update": {
+      "success": "Obiekt został zaktualizowany pomyślnie.",
+      "error": "Wystąpił błąd podczas aktualizacji obiektu."
+    },
+    "order": {
+      "success": "Zamówienie zostało złożone pomyślnie i przekazane do administracji.",
+      "error": "Wystąpił błąd podczas składania zamówienia"
+    },
+    "signup": {
+      "success": "Rejestracja przebiegła pomyślnie. Logowanie będzie możliwe po aktywacji konta przez administratora.",
+      "error": "Użytkownik o podanym loginie lub adresie email już istnieje."
+    },
+    "forgot-password": {
+      "success": "Na podany adres e-mail otrzymasz link pozwalający na zresetowanie Twojego hasła.",
+      "error": "Nie ma żadnego konta zarejestrowanego dla tego adresu e-mail."
+    },
+    "login": {
+      "error": "Nieprawidłowy login lub hasło"
+    },
+    "reset-password": {
+      "success": "Hasło zostało zmienione, możesz teraz się zalogować.",
+      "error": "Wystąpił błąd podczas zmiany hasła."
+    }
+  }
+}

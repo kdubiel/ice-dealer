@@ -1,0 +1,20 @@
+{
+  "pagination": {
+    "labelDisplayedRows": "{from}-{to} of {count}",
+    "labelRowsSelect": "rows",
+    "firstTooltip": "First page",
+    "previousTooltip": "Previous page",
+    "nextTooltip": "Next page",
+    "lastTooltip": "Last page"
+  },
+  "body": {
+    "emptyDataSourceMessage": "No data"
+  },
+  "toolbar": {
+    "nRowsSelected": "Selected rows: {0}",
+    "searchTooltip": "Search",
+    "searchPlaceholder": "Search",
+    "exportTitle": "Export",
+    "exportName": "Export to CSV"
+  }
+}

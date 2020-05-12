@@ -1,0 +1,24 @@
+{
+  "name": "@dnb/common",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "main": "dist/index.js",
+  "typing": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "watch": "tsc -w",
+    "test": "echo Common tests...",
+    "lint": "echo Common lint...",
+    "lint:fix": "echo Common lint:fix..."
+  },
+  "devDependencies": {
+    "@types/yup": "^0.26.33",
+    "rimraf": "^3.0.2",
+    "typescript": "~3.7.2"
+  },
+  "dependencies": {
+    "i18next": "^19.3.3",
+    "yup": "^0.28.3"
+  }
+}

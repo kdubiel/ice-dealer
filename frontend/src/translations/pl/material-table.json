@@ -1,0 +1,20 @@
+{
+  "pagination": {
+    "labelDisplayedRows": "{from}-{to} z {count}",
+    "labelRowsSelect": "wierszy",
+    "firstTooltip": "Pierwsza strona",
+    "previousTooltip": "Poprzednia strona",
+    "nextTooltip": "Następna strona",
+    "lastTooltip": "Ostatnia strona"
+  },
+  "body": {
+    "emptyDataSourceMessage": "Brak danych"
+  },
+  "toolbar": {
+    "nRowsSelected": "Wybrano wierszy: {0}",
+    "searchTooltip": "Szukaj",
+    "searchPlaceholder": "Szukaj",
+    "exportTitle": "Eksportuj",
+    "exportName": "Eksportuj do CSV"
+  }
+}

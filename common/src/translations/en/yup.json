@@ -1,0 +1,27 @@
+{
+  "mixed": {
+    "default": "Invalid value",
+    "required": "Field cannot be empty",
+    "oneof": "Entered value is not allowed",
+    "notoneof": "Entered value is not allowed",
+    "nottype": "Entered value is not allowed"
+  },
+  "string": {
+    "length": "The number of characters entered must be {{length}}",
+    "min": "Minimum length is {{min}} characters",
+    "max": "Maximum length is {{max}} characters",
+    "matches": "Entered value is not allowed",
+    "email": "Incorrect email address",
+    "url": "Incorrect url format",
+    "trim": "White space at the beginning and the end of a field are not allowed",
+    "lowercase": "Only lowercase letters are allowed",
+    "uppercase": "Only uppercase letters are allowed"
+  },
+  "number": {
+    "integer": "Entered value must be an integer",
+    "min": "Minimum value is {{min}}"
+  },
+  "object": {
+    "nounknown": "Entered values ​​do not match the key"
+  }
+}
